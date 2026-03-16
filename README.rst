@@ -18,6 +18,12 @@ Just type in your shell:
 
   $ pip install wbxml
 
+Or to install it system-wide into ``/usr/local``:
+
+.. code-block:: bash
+
+  # pip install --prefix=/usr .
+
 If your ``wbxml.h`` is not in the ``/usr/include`` directory:
 
 .. code-block:: bash
@@ -30,7 +36,7 @@ Requirements
 
 You need to have `libwbxml <https://github.com/libwbxml/libwxml>`_ installed.
 
-In Ubuntu 14.04 install:
+In Ubuntu 24.04 install:
 
 .. code-block:: bash
 

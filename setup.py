@@ -5,7 +5,8 @@ with open('README.rst', 'r') as file:
 
 wbxml = Extension('wbxml',
                   libraries=['wbxml2'],
-                  sources=['src/wbxml.c'])
+                  sources=['src/wbxml.c'],
+                  include_dirs=['/usr/include/libwbxml-1.0/wbxml/'])
 
 setup(name='wbxml',
       version='0.1.1',

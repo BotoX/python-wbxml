@@ -26,7 +26,7 @@ static PyObject* xml_to_wbxml(PyObject* self, PyObject* args) {
   }
 
   params.wbxml_version = WBXML_VERSION_13;
-  params.use_strtbl = TRUE;
+  params.use_strtbl = FALSE;
   params.keep_ignorable_ws = FALSE;
   params.produce_anonymous = TRUE;
 
